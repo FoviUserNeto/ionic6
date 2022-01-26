@@ -1,0 +1,7 @@
+{
+  "name": "tihuatlan",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
