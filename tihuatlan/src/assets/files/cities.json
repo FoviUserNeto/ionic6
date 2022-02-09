@@ -1,16 +1,22 @@
 {
   "data":[
     {
+      "id":1,
       "nombre":"Veracruz",
-      "imagen":"veracruz.jpg"
+      "imagen":"veracruz.jpg",
+      "descripcion":"Veracruz, también conocida como Heroica Veracruz, es una ciudad portuaria mexicana, que se encuentra en la costa del Golfo de México, en el estado de Veracruz. Es uno de los puertos más antiguos y grandes del país, fundado en el siglo XVI por colonizadores españoles. En una isla se ubica San Juan de Ulúa, una fortaleza colonial y antiguo complejo carcelario que mira desde lo alto al puerto y funciona actualmente como un museo de historia."
     },
     {
+      "id":2,
       "nombre":"Puebla",
-      "imagen":"puebla.jpg"
+      "imagen":"puebla.jpg",
+      "descripcion":"Puebla es una ciudad del área este central de México, al sureste de Ciudad de México. Es conocida por su historia culinaria, la arquitectura colonial y las cerámicas. La cerámica pintada de Talavera que adorna varios edificios es elaborada localmente. La Catedral de Puebla, de la época renacentista, tiene campanarios altos y se yergue frente a la plaza central, el Zócalo. El Museo Amparo ofrece grandes exhibiciones de arte prehispánico, como cerámicas y fragmentos de murales."
     },
     {
+      "id":3,
       "nombre":"Chiapas",
-      "imagen":"chiapas.jpg"
+      "imagen":"chiapas.jpg",
+      "descripcion":"Chiapas es un estado del sur de México que limita con Guatemala. Sus zonas montañosas altas y el denso bosque tropical tienen varios sitios arqueológicos mayas y pueblos coloniales españoles. En la ciudad colonial de San Cristóbal de las Casas, el Templo y Ex-Convento Santo Domingo alberga una iglesia barroca y un museo que muestra artefactos regionales. En torno a él, hay un mercado donde se venden artículos, como tejidos coloridos."
     }
   ]
 }
