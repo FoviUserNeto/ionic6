@@ -1,0 +1,16 @@
+{
+  "data":[
+    {
+      "nombre":"Veracruz",
+      "imagen":"veracruz.jpg"
+    },
+    {
+      "nombre":"Puebla",
+      "imagen":"puebla.jpg"
+    },
+    {
+      "nombre":"Chiapas",
+      "imagen":"chiapas.jpg"
+    }
+  ]
+}
