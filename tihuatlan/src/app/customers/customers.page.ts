@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable @typescript-eslint/type-annotation-spacing */
 /* eslint-disable arrow-body-style */
@@ -15,6 +16,7 @@ import { map } from 'rxjs/operators';
 export class CustomersPage implements OnInit {
 
   users:any = [];
+  searchUser:any;
   permiso:boolean;
 
   constructor(
@@ -28,6 +30,7 @@ export class CustomersPage implements OnInit {
     this.getUsers().subscribe(res=>{
       console.log("Res: ", res);
       this.users = res;
+      this.searchUser = this.users;
     });
   }
 
@@ -43,6 +46,16 @@ export class CustomersPage implements OnInit {
         return res.data;
       })
     );
+  }
+
+  buscarClientes(event){
+    const text = event.target.value;
+    this.searchUser = this.users;
+    if(text && text.trim() != ''){
+      this.searchUser = this.searchUser.filter((user:any)=>{
+        return (user.nombre.toLowerCase().indexOf(text.toLowerCase()) > -1);
+      });
+    }
   }
 
 
