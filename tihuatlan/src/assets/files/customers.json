@@ -1,0 +1,22 @@
+{
+  "data":[
+    {
+      "nombre":"Nestor",
+      "estado":"Veracruz",
+      "descripcion":"AAAAAAA",
+      "imagen":"avatar-han.png"
+    },
+    {
+      "nombre":"Erick",
+      "estado":"Ciudad de México",
+      "descripcion":"BBBBBB",
+      "imagen":"avatar-ben.png"
+    },
+    {
+      "nombre":"Briss",
+      "estado":"Morelos",
+      "descripcion":"CCCCCC",
+      "imagen":"avatar-luke.png"
+    }
+  ]
+}
