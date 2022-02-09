@@ -5,8 +5,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-
+  <ion-list *ngIf="permiso">
     <ion-item *ngFor="let item of users">
       <ion-avatar slot="start">
         <img src="../../assets/customers-imgs/{{item.imagen}}" />
@@ -19,6 +18,7 @@
         <p>{{item.descripcion}}</p>
       </ion-label>
     </ion-item>
-
   </ion-list>
+
+  <ion-label *ngIf="!permiso">No tienes permisos para ver los clientes</ion-label>
 </ion-content>

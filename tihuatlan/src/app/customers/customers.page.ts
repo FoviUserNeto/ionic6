@@ -15,6 +15,7 @@ import { map } from 'rxjs/operators';
 export class CustomersPage implements OnInit {
 
   users:any = [];
+  permiso:boolean;
 
   constructor(
     private router: Router,
@@ -23,6 +24,7 @@ export class CustomersPage implements OnInit {
     ) { }
 
   ngOnInit() {
+    this.permiso = true;
     this.getUsers().subscribe(res=>{
       console.log("Res: ", res);
       this.users = res;
